@@ -1,0 +1,59 @@
+# === Language & Runtime Artifacts ===
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# JavaScript / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm
+
+# === Environment & Secrets ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials*
+*_credentials.json
+secrets.json
+
+# === IDE & Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Build & Output ===
+*.exe
+*.dll
+*.so
+*.out
+*.log
+coverage/
+.cache/
+
+# === Data (keep sample data, ignore large datasets) ===
+data/large-datasets/
+*.csv.gz
+*.zip
+
+# === Terraform (if any infra projects later) ===
+*.tfstate
+*.tfstate.backup
+.terraform/
